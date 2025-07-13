@@ -1,7 +1,7 @@
 {
-  "name": "Golden Flowers",
-  "description": "Приложение для удобного пользования информацией от оптовой цветочной компании Golden Flowers Cash&Carry",
-  "short_name": "GFCC",
+  "name": "Golden Flowers Pricelist",
+  "description": "Pricelist Golden Flowers",
+  "short_name": "PRICE",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
