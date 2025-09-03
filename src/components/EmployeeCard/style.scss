@@ -1,0 +1,38 @@
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  background: var(--gray);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px var(--shadow);
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+  }
+
+  &__photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-primary);
+  }
+
+  &__info {
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: var(--text);
+    }
+    p {
+      margin: 2px 0 0;
+      font-size: 14px;
+      color: #555;
+    }
+  }
+}

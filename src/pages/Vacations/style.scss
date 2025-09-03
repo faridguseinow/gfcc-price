@@ -1,0 +1,65 @@
+:root {
+  --gray: #eeeeee;
+  --bg: #fdf0d5;
+  --text: #000000;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --color-primary: #780000;
+}
+
+.vacations-page {
+  padding: 1rem;
+  background: var(--bg);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.vacations-header {
+  margin-bottom: 1rem;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+}
+
+/* Кастомизация календаря */
+.vacation-day {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.outside-month {
+  color: #bbb !important;
+}
+
+/* Список отпусков */
+.vacations-list {
+  margin-top: 1rem;
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .vacation-item {
+    background: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--shadow);
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+
+    .name {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .dates {
+      color: #555;
+    }
+  }
+}
